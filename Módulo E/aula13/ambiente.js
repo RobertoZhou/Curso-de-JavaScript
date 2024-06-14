@@ -1,8 +1,9 @@
-contador = 1
+// Executa o código primeiro, depois executa o while
+contador = 3
 do {
     console.log(`Bem-Vindo!`)
     contador++
-} while(contador <= 6)
+} while(contador == 6)
 
 
 /*
