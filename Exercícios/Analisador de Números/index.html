@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            Número [entre 1 a 100]:
+            <input id="num" type="number" placeholder="Digite um número">
+            <button onclick="adicionarNum()">Adicionar</button>
+            <p><select name="tabuada" id="seltab" size="6"></select></p>
+            <p><button onclick="analisarNum()">Finalizar</button></p>
+        </div>
+        <div id="msg">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso Em Video</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
